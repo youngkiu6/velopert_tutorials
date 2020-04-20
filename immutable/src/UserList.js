@@ -7,7 +7,6 @@ class UserList extends Component {
         return nextProps.users !== this.props.users;
     }
 
-
     renderUsers = () => {
         const { users } = this.props;
         return users.map((user) => (
