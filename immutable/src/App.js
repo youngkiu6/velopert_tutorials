@@ -5,15 +5,16 @@ class App extends Component {
   id = 3;
 
   state = {
-    input: '',
     users: [
       {
         id: 1,
-        username: 'velopert'
+        username: 'velopert',
+        email: 'public.velopert@gmail.com'
       },
       {
         id: 2,
-        username: 'mjkim'
+        username: 'lopert',
+        email: 'lopert@gmail.com'
       }
     ]
   }
